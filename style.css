@@ -1,0 +1,199 @@
+*{
+ margin:0;
+ padding:0
+ box-sizing: border-box;
+}
+
+
+:root {
+  --background: #331D2C;
+  --secondaryBackground: #3F2E3E;
+  --text: #fff;
+  --purple: #A78295;
+  --teal: #EFE1D1;
+}
+
+.subtitle {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.1rem;        /* Smaller size */
+  color: #ffffff;
+  opacity: 0.4;
+  text-align: left;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+body{
+background-color: var(--background);
+color:var(--text);
+
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ justify-content: center;
+ margin: 120px auto 0 auto;
+ max-width: 500px
+}
+
+.details p {
+  margin-bottom: 10px; /* adjust as needed */
+}
+
+.stats-container{
+
+ padding:30px;
+ border-radius: 20px;
+ border: 2px solid var(--purple);
+ display: flex;
+ justify-content: space-between;
+ gap: 30px;
+ width: 100%;
+}
+
+.details{
+width: 100%;
+}
+
+#progressbar{
+width:100px;
+height: 100px;
+background-color: var(--secondaryBackground);
+border-radius: 5px;
+margin-top: 20px;
+
+
+}
+
+#progress{
+width: 50%;
+height: 10px;
+background-color: var(--teal);
+border-radius: 10px;
+transition: width 0.3s ease, opacity 0.3s ease;
+opacity : 1;
+}
+
+#numbers{
+ width:100px;
+ height:100px;
+ background-color: var(--purple);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border-radius: 50%;
+ font-size: 20px;
+ font-weight: bold;
+
+}
+
+form{
+margin-top: 60px;
+width: 100%;
+display: flex;
+gap: 10px
+}
+
+input{
+flex: 1;
+padding:16px;
+background: var(--secondaryBackground);
+border: 1px solid var(--purple);
+border-radius: 10px;
+outline:none;
+color: var(--text);
+}
+
+
+button{
+width: 50px;
+height:50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content : center;
+background-color: var(--purple);
+color: var(--text);
+font-size: 30px;
+font-weight: bold;
+outline: none;
+}
+
+#task-list{
+display:flex;
+flex-direction: column;
+gap: 5px;
+margin-top: 30px;
+width: 90%;
+list-style: none;
+padding:16px;
+}
+
+.taskItem {
+  display: flex;
+  align-items: center;            /* Align children vertically */
+  justify-content: space-between;
+  background-color: var(--secondaryBackground);
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+
+
+.task{
+display: flex;
+align-items:center;
+gap:10px;
+
+}
+
+
+.task input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--purple);
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  position: relative;
+  top: 1px; /* tweak if needed: try 0px, 1px, -1px */
+}
+
+.task p {
+  color: var(--text);
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1;  /* prevent excess space */
+  display: inline-block;
+  position: relative;
+  top: 1px; /* slight adjustment to match checkbox */
+}
+
+.task.completed p {
+  text-decoration: line-through;
+  color: var(--teal);
+}
+
+
+
+.taskItem img{
+width: 24px;
+height: 24px;
+margin: 0 10px;
+cursor: pointer;
+
+
+}
