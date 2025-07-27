@@ -1,8 +1,3 @@
-# NextUp
-NextUp helps you stay organized with a simple and elegant ToDo list.
-Sure! Here's a complete, polished `README.md` file for your **NextUp** ToDo App. This version is ideal for showcasing on **GitHub**, your **portfolio**, or in a **project submission**:
-
----
 
 ## 📝 NextUp – Minimalist ToDo App
 
