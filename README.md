@@ -1,20 +1,20 @@
 
-## 📝 NextUp – Minimalist ToDo App
+## NextUp – Minimalist ToDo App
 
 > **Plan it. Do it. Done.**
 > A simple, elegant ToDo app to keep you productive and motivated.
 
 ---
 
-### 📌 Overview
+### Overview
 
 **NextUp** is a clean and stylish task management app designed to help users organize their day, track completed tasks, and visualize progress. Whether you're managing daily chores or personal goals, NextUp makes it easy and motivating to stay on track.
 
 ---
 
-### ✨ Features
+### Features
 
-* ✅ Add, edit, delete tasks
+* Add, edit, delete tasks
 * Mark tasks as complete/incomplete
 * Progress bar showing completion ratio
 * Responsive layout and dark theme
@@ -22,14 +22,14 @@
 
 ---
 
-### 📸 Preview
+###  Preview
 
 ![Screenshot](SS.png)
 ![Screenshot](Screenshot.png)
 
 ---
 
-### 🚀 Technologies Used
+###  Technologies Used
 
 * **HTML5** – Structure
 * **CSS3** – Styling and responsive layout
@@ -38,7 +38,7 @@
 
 ---
 
-### 🛠️ Setup Instructions
+###  Setup Instructions
 
 1. Clone the repository:
 
@@ -57,7 +57,7 @@
 
 ---
 
-### 📂 Folder Structure
+###  Folder Structure
 
 ```
 📁 NextUp/
