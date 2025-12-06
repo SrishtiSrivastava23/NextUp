@@ -72,7 +72,7 @@
 
 ---
 
-### ✍️ Author
+
 
 **Srishti Srivastava**
 
